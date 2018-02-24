@@ -1,0 +1,27 @@
+@supports (displau: grid) {
+    .grid {
+        display:grid;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1, h4, p {
+    font-family: sans-serif;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+img {
+    width: 80%;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+
